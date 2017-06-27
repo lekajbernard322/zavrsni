@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:padding="@dimen/small_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/group_info_group_owner_device"
+        android:id="@+id/group_info_group_owner_device"/>
+
+    <TextView
+        android:padding="@dimen/small_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/group_info_group_owner_address"
+        android:id="@+id/group_info_group_owner_address"/>
+
+    <TextView
+        android:padding="@dimen/small_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/group_info_is_group_owner"
+        android:id="@+id/group_info_is_group_owner"/>
+
+    <TextView
+        android:padding="@dimen/small_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/group_info_is_group_formed"
+        android:id="@+id/group_info_is_group_formed"/>
+
+    <TextView
+        android:padding="@dimen/small_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/group_info_network_name"
+        android:id="@+id/group_info_network_name"/>
+
+    <TextView
+        android:padding="@dimen/small_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/group_info_interface"
+        android:id="@+id/group_info_interface"/>
+
+    <TextView
+        android:padding="@dimen/small_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/group_info_passphrase"
+        android:id="@+id/group_info_passphrase"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/group_info_button_group"
+        android:text="@string/group_info_create_group"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/group_info_button_chat"
+        android:text="@string/group_info_start_chat"/>
+
+    <ListView
+        android:padding="@dimen/small_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/group_info_client_list"/>
+
+</LinearLayout>

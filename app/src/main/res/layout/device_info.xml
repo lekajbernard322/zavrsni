@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/device_info_device_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/medium_padding"
+            android:text="@string/device_info_device_name" />
+
+        <TextView
+            android:gravity="center_vertical"
+            android:padding="@dimen/medium_padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/device_info_device_address"
+            android:id="@+id/device_info_device_address" />
+
+        <TextView
+            android:gravity="center_vertical"
+            android:padding="@dimen/medium_padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/device_info_device_status"
+            android:id="@+id/device_info_device_status"/>
+
+        <TextView
+            android:gravity="center_vertical"
+            android:padding="@dimen/medium_padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/device_info_primary_type"
+            android:id="@+id/device_info_primary_type"/>
+
+        <TextView
+            android:gravity="center_vertical"
+            android:padding="@dimen/medium_padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/device_info_secondary_type"
+            android:id="@+id/device_info_secondary_type"/>
+
+        <TextView
+            android:gravity="center_vertical"
+            android:padding="@dimen/medium_padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/device_info_is_group_owner"
+            android:id="@+id/device_info_is_group_owner"/>
+
+        <TextView
+            android:gravity="center_vertical"
+            android:padding="@dimen/medium_padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/device_info_is_service_discovery_capable"
+            android:id="@+id/device_info_is_service_discovery_capable"/>
+
+        <TextView
+            android:gravity="center_vertical"
+            android:padding="@dimen/small_padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/device_info_wps_display_support"
+            android:id="@+id/device_info_wps_display_support"/>
+
+        <TextView
+            android:gravity="center_vertical"
+            android:padding="@dimen/small_padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/device_info_wps_keypad_support"
+            android:id="@+id/device_info_wps_keypad_support"/>
+
+        <TextView
+            android:gravity="center_vertical"
+            android:padding="@dimen/small_padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/device_info_wps_pbc_support"
+            android:id="@+id/device_info_wps_pbc_support"/>
+
+</LinearLayout>
